@@ -15,5 +15,5 @@ Technologies Used:
 
 Setup Instructions:
 1. Clone the repository: git clone https://github.com/AnanyaGarg25/Library-Management-System.git
-2. Set up MySQL database and import the required schema (librarydb).
+2. Set up MySQL database and import the required schema (librarydb.sql).
 3. Open the project in NetBeans (Preferably "target\LibraryAPI-1.0-SNAPSHOT.war") and run the application.
