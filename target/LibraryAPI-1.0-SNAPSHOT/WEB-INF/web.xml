@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+   version="6.0">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>BookServlet</servlet-name>
+        <servlet-class>com.example.libraryapi.resources.BookServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BookServlet</servlet-name>
+        <url-pattern>/getbook</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddBookServlet</servlet-name>
+        <servlet-class>com.example.libraryapi.resources.AddBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddBookServlet</servlet-name>
+        <url-pattern>/getaddbook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateBookServlet</servlet-name>
+        <servlet-class>com.example.libraryapi.resources.UpdateBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateBookServlet</servlet-name>
+        <url-pattern>/getupdatebook</url-pattern>
+    </servlet-mapping>
+ 
+</web-app>

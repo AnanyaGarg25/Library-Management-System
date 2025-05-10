@@ -1,0 +1,9 @@
+com\example\libraryapi\resources\AddBookServlet.class
+com\example\libraryapi\resources\JakartaEE11Resource.class
+com\example\libraryapi\resources\LoginServlet.class
+com\example\libraryapi\resources\RegisterServlet.class
+com\example\libraryapi\DBUtil.class
+com\example\libraryapi\Book.class
+com\example\libraryapi\resources\BookServlet.class
+com\example\libraryapi\resources\UpdateBookServlet.class
+com\example\libraryapi\JakartaRestConfiguration.class
